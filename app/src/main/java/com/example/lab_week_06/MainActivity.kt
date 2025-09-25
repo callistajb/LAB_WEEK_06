@@ -12,6 +12,7 @@ import com.example.lab_week_06.model.Gender
 import com.example.lab_week_06.R
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.ItemTouchHelper
 
 class MainActivity : AppCompatActivity() {
 
@@ -45,6 +46,11 @@ class MainActivity : AppCompatActivity() {
         //A layout manager is used to set the structure of the item views
         //For this tutorial, we're using the vertical linear structure
         recyclerView.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
+
+        //Instantiate ItemTouchHelper for the swipe to delete callback and
+        //attach it to the recycler view
+        val itemTouchHelper = ItemTouchHelper(catAdapter.swipeToDeleteCallback)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
 
         //Add data to the model list in the adapter
         catAdapter.setData(
