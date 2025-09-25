@@ -75,6 +75,86 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                //1
+                CatModel(
+                    Gender.Male,
+                    breed = CatBreed.Abyssinian,
+                    name = "Leon",
+                    biography = "Active and affectionate",
+                    "https://cdn2.thecatapi.com/images/unPP08xOZ.jpg"
+                ),
+                //2
+                CatModel(
+                    Gender.Female,
+                    breed = CatBreed.EgyptianMau,
+                    name = "Cleopatra",
+                    biography = "Shy, but gentle",
+                    imageUrl = "https://cdn2.thecatapi.com/images/AH61b9ziS.jpg"
+                ),
+                //3
+                CatModel(
+                    Gender.Unknown,
+                    breed = CatBreed.YorkChocolate,
+                    name = "Coco Chanel",
+                    biography = "Chic adventurer",
+                    "https://cdn2.thecatapi.com/images/LzVDEMYIv.jpg"
+                ),
+                //4
+                CatModel(
+                    Gender.Unknown,
+                    breed = CatBreed.Cheetoh,
+                    name = "Yves",
+                    biography = "Wild at heart",
+                    imageUrl = "https://cdn2.thecatapi.com/images/L-aDi29wP.jpg"
+                ),
+                //5
+                CatModel(
+                    Gender.Female,
+                    breed = CatBreed.Munchkin,
+                    name = "Princess",
+                    biography = "Short queen",
+                    imageUrl = "https://cdn2.thecatapi.com/images/G0JPLrMFg.jpg"
+                ),
+                //6
+                CatModel(
+                    Gender.Female,
+                    breed = CatBreed.Himalayan,
+                    name = "Twilight",
+                    biography = "Zen cuddlebug",
+                    imageUrl = "https://cdn2.thecatapi.com/images/L-aDi29wP.jpg"
+                ),
+                //7
+                CatModel(
+                    Gender.Male,
+                    breed = CatBreed.Oriental,
+                    name = "Anakin",
+                    biography = "Drama master",
+                    imageUrl = "https://cdn2.thecatapi.com/images/LutjkZJpH.jpg"
+                ),
+                //8
+                CatModel(
+                    Gender.Male,
+                    breed = CatBreed.CaliforniaSpangled,
+                    name = "Dale",
+                    biography = "Acrobat on paws",
+                    imageUrl = "https://cdn2.thecatapi.com/images/B1ERTmgph.jpg"
+                ),
+                //9
+                CatModel(
+                    Gender.Unknown,
+                    breed = CatBreed.Manx,
+                    name = "Louis",
+                    "Tail-less charm",
+                    imageUrl = "https://cdn2.thecatapi.com/images/Rscv6E1c5.jpg"
+                ),
+                //10
+                CatModel(
+                    Gender.Female,
+                    breed = CatBreed.ChantillyTiffany,
+                    name = "Denise",
+                    biography = "Velvet diva",
+                    imageUrl = "https://cdn2.thecatapi.com/images/TR-5nAd_S.jpg"
                 )
             )
         )

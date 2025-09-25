@@ -45,6 +45,16 @@ class CatViewHolder(private val containerView: View, private val imageLoader: Im
             CatBreed.AmericanCurl -> "American Curl"
             CatBreed.BalineseJavanese -> "Balinese-Javanese"
             CatBreed.ExoticShorthair -> "Exotic Shorthair"
+            CatBreed.Abyssinian -> "Abyssinian"
+            CatBreed.EgyptianMau -> "Egyptian Mau"
+            CatBreed.Manx -> "Manx"
+            CatBreed.Cheetoh -> "Cheetoh"
+            CatBreed.Munchkin -> "Munchkin"
+            CatBreed.Oriental -> "Oriental"
+            CatBreed.Himalayan -> "Himalayan"
+            CatBreed.YorkChocolate -> "York Chocolate"
+            CatBreed.ChantillyTiffany -> "Chantilly-Tiffany"
+            CatBreed.CaliforniaSpangled -> "California Spangled"
             else -> "Unknown"
         }
         catBiographyView.text = cat.biography
